@@ -1,344 +1,379 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Long Professional Curriculum Vitae
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
 % LaTeX Template
-% Version 1.1 (9/12/12)
+% Version 1.2 (3/28/15)
 %
 % This template has been downloaded from:
-% http://www.latextemplates.com
+% http://www.LaTeXTemplates.com
 %
 % Original author:
-% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+% 
+% Further modified by:
+% Alwyn Mathew <alwynmathew.90@gmail.com> 9/20/2016
 %
 % Important note:
-% This template requires the res.cls file to be in the same directory as the
-% .tex file. The res.cls file provides the resume style used for structuring the
-% document.
+% This template requires the simple_style.cls file to be in the same directory 
+% as the .tex file. The res.cls file provides the resume style used for 
+% structuring the document.
 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[12pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage{helvet} % Default font is the helvetica postscript font
-%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\documentclass[mm]{simple_style}  
 
-\newsectionwidth{0pt} % Stops section indenting
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{xcolor}
+\hypersetup {
+    colorlinks=true,
+    linkcolor=colorlink,
+    filecolor=magenta,      
+    urlcolor=colorlink,
+}
+\usepackage[left=0.7in, right=2in, top=0.9in]{geometry}
 
-\usepackage[hidelinks]{hyperref} % url
-\usepackage[dvipsnames]{xcolor}
-\definecolor{LightGrey}{HTML}{808285}
+% Increase text height
+\textheight=700pt
 
 \begin{document}
 
-{\color{LightGrey}\hfill{{\footnotesize Last updated on \today}}}
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{Alwyn Mathew}
+\qualification{Senior Research Fellow, Department of Computer Science, IIT Patna}
+\emailone{alwyn.pcs16@iitp.ac.in}
+\emailtwo{alwynmathew.90@gmail.com}
+\website{https://alwynm.github.io/}{alwynm.github.io}
+\linkedin{https://www.linkedin.com/in/alwynmathew}{linkedin.com/in/alwynmathew}
+\github{https://github.com/alwynmathew}{github.com/alwynmathew}
+\phone{+91--96452--39304} 
 
-\name{\Large Alwyn Mathew}
-
-\address{
-	\centerline{Kochumalil (H), Wallardie Jn, Vandiperiyar PO, Idukki Dist, Kerala-685533, India} \\  
-	\centerline {\url{https://alwynm.github.io}} \\
-	\centerline {\href{mailto:alwyn.pcs16@iitp.ac.in}{alwyn.pcs16@iitp.ac.in}, \href{mailto:alwynmathew.90@gmail.com}{alwynmathew.90@gmail.com}} \\
-%	\centerline {\href{https://www.linkedin.com/in/alwynmathew/}{www.linkedin.com/in/alwynmathew}} \\
-	\centerline {+91 96452 39304} \\} 
+\address{Kochumalil~(H), Wallardie Jn, Vandiperiyar PO\\ Idukki Dist, Kerala--685533, India}
+%\address{B3-R512, IIT Patna, Bihta, Patna, Bihar--801103, India}
+%-------------------------------------------------------------------------------
 
 \begin{resume}
 
-\hrule
-%\vspace{0.05in} 
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{Education}
+\cusemph{Indian Institute of Technology (IIT) Patna}, Bihar, India \timeline{Aug 2021 (Expected)}\\
+{\sl Ph.D. in Computer Vision (Awaiting Thesis Defense)} \\
+\cusemph{GPA: 8.63/10}
 
-Ph.D. fellow trained in Computer Vision with areas of expertise in 3D Computer Vision. Passionate about teaching machines to see like we do. I have extensive research experience and the ability to work independently or as part of a team.
+\cusemph{College of Engineering Karunagappally}, Kerala, India \timeline{May 2016}\\
+{\sl Master’s in Technology, Image Processing} \\
+\cusemph{GPA: 8.4/10}
 
-\vspace{0.1in}
-\section{\centerline{EDUCATION}} 
-\vspace{0.1in} % Gap between title and text
+\cusemph{Tamilnadu College Of Engineering}, Coimbatore, India \timeline{April 2012}\\
+{\sl Bachelor’s in Technology, Information Technology} 
 
-\textbf {Indian Institute of Technology (IIT) Patna} \hfill  Patna, India \\ 
-{\sl Ph.D. in Computer Vision (Thesis submitted)} \hfill Aug 2021
+\sectionline
+%-------------------------------------------------------------------------------
 
-\textbf {College of Engineering Karunagappally} \hfill  Kerala, India \\ 
-{\sl Master’s in Technology, Image Processing} \hfill May 2016
+%-------------------------------------------------------------------------------
+%	RESEARCH SECTION
+%-------------------------------------------------------------------------------
+\section{Research\\Interests}
+\par
+3D Computer Vision, Adversarial Machine Learning \\Reinforcement Learning, Demand Side Management
 
-\textbf {Tamilnadu College Of Engineering} \hfill  Coimbatore, India \\ 
-{\sl Bachelor's in Technology, Information Technology} \hfill April 2012
+%-------------------------------------------------------------------------------
+%      PUBLICATIONS 
+%-------------------------------------------------------------------------------
+\section{Publications}
 
-\vspace{0.1in}
-\section{\centerline{SCHOLARSHIPS AWARDED}} 
-\vspace{0.1in} 
+\vspace{-3.5ex}
+\subsection{Journal Articles}
+\vspace{-2ex}
 
-Sponsorship from \textbf{Scheme for Promotion of Academic and Research Collaboration}, Ministry of Human Resource development, Government of India. Grant \#P582. \hfill April 2020
+\cusemph{Mathew, A.} and Mathew J., Monocular depth estimation with SPN loss, \textit{Image and Vision Computing}, 2020.
 
-Three year \textbf{Senior Research Fellowship} (SRF) at IIT Patna \\
-Awarded by Ministry of Human Resource Development, Government of India. \hfill April 2018
+\cusemph{Mathew, A.}, Roy, A.,  and Mathew, J., Intelligent Residential Energy Management System Using Deep Reinforcement Learning, \textit{IEEE Systems Journal}, 2020.
 
-Two year \textbf{Junior Research Fellowship} (JRF)  at IIT Patna \\
-Awarded by Ministry of Human Resource Development, Government of India. \hfill July 2016
+\cusemph{Mathew, A.}, Jolly, MJ., and Mathew, J., Improved Residential Energy Management System Using Priority Double Deep Q-learning, \textit{Sustainable Cities and Society}, 2021.
 
-Two year \textbf{Post Graduate Fellowship}  at College of Engineering Karunagappally \\
-Institute of Human Resources Development, Government of Kerala.\hfill July 2014
+\cusemph{Mathew, A.}, and Mathew, J., MDDNet: Learn Depth and Ego-motion from Videos with Camera Distortion, \textit{Computer Vision and Image Understanding}, 2020. \textit{(Under-revision)}
 
-\vspace{0.1in}
-\section{\centerline{COMPETITIVE AWARDS}} 
-\vspace{0.1in} 
+\cusemph{Mathew, A.}, Patra, A., and Mathew, J., Monocular Depth Estimators: Vulnerabilities and Attacks, \textit{IEEE Intelligent Systems}, 2020. \textit{(Under-review)}
 
-\textbf{Second Place}, IoT Grand Challenge, Indian Institute of Technology (IIT) Patna. \hfill 2016
+\cusemph{Mathew, A.}, and Mathew, J., Monocular Depth Estimation with Unknown Cameras, \textit{Knowledge Based System}, 2021. \textit{(Under-review)}
 
-\textbf{Finalist}, Bosch DNA Challenge, Bosch India. \hfill 2017
+\cusemph{Mathew, A.}, and Mathew, J., Cheaper Depth Sensor Enhances
+Monocular Depth Estimation, \textit{Information Fusion}, 2021. \textit{(Under-review)}
 
-\textbf{Top 35}, Patna Ideathon, Government of Bihar. \hfill 2018
+\cusemph{Mathew, A.}, and Mathew, J., Efficient Demand Response in Residential Grid using Q-learning, \textit{IEEE Systems Journal}, 2021. \textit{(Under-review)}
 
-\section{\centerline{PROFESSIONAL MEMBERSHIP}} 
-\vspace{0.1in} 
+\cusemph{Mathew, A.}, Gopugari, B., and Mathew, J., Improving Unsupervised Monocular Depth
+Estimation with Stereo Assistance, \textit{IEEE Transactions on Intelligent Vehicles}, 2021. \textit{(Under-review)}
 
-\textbf{IEEE Student Member}, IEEE Membership Number: 96850267.
+\vspace{-3.5ex}
+\subsection{Conference Proceedings}
+\vspace{-2ex}
 
-\vspace{0.02in}
-\section{\centerline{COMPETITIVE EXAMINATIONS QUALIFIED}} 
-\vspace{0.1in} 
-Department of Higher Education, Ministry of Human Resources Development, India
+\cusemph{Mathew, A.}, Neeraj., and Mathew, J., UnkDisp: Monocular Depth Estimation with
+Unknown Baseline and Focal Length, \textit{International Conference on Neural Information Processing}, 2021. \textit{(Under-review)}
 
-\begin{itemize}
-\setlength\itemsep{-1.0em}
-\item Graduate Aptitude Test in Engineering (\textbf{GATE}) 2016,  All India Rank: 5493 out of 108495 candidates (95 percentile).
-\end{itemize}
+\cusemph{Mathew, A.}, Patra, AP., and Mathew, J., Self-Attention Dense Depth Estimation Network for Unrectified Video Sequences, \textit{IEEE International Conference on Image Processing}, 2020.
 
-\section{\centerline{RESEARCH EXPERIENCE}} 
+Sanodiya RK, \cusemph{Mathew, A.}, Mathew, J., and Khushi, M., Statistical and Geometrical Alignment using Metric Learning in Domain Adaptation, \textit{IEEE International Joint Conference on Neural Networks}, 2020.
 
-\vspace{0.1in} 
+Srivastava, H., \cusemph{Mathew, A.}, and Mathew, J., A Novel Frame Similarity Based Pedestrian Counting Approach in Surveillance Videos, \textit{IEEE India Council International Conference}, 2018.
 
-\textbf {Doctoral  Research Experience} \hfill  Patna, India \\ 
-{\sl Indian Institute of Technology Patna} \hfill July 2016--May 2021 
-\vspace{5pt}
-\begin{itemize}
+\cusemph{Mathew, A.}, Mathew, J., Govind, M., and Mooppan, A., An Improved Transfer learning Approach for Intrusion Detection, \textit{International Conference on Advances in Computing  Communication}, 2017.
 
-\item Developed expertise in Camera Models.
-\item Developed expertise in self-supervised depth estimation from a single camera.
-\item Introduced direct depth estimation with a distorted camera lens.
-\item Studied the impact of self-attention in depth estimation network. 
+\vspace{-3.5ex}
+\subsection{Patents}
+\vspace{-2ex}
 
-\item Developed expertise in Adversarial Samples and their effect on deep neural networks.
-\item Studied the vulnerabilities of monocular depth estimators against Adversarial attacks.
+Easa Z., Gupta D., Mathew J., and \cusemph{Mathew A.}, Automated two wheeler parking system by detecting the location of the vehicle using sensor under the platform Appl.no. 201731036379. (2017 Indian Patent Pending)
 
-\item Introduced an intelligent agent for shifting load from no-peak to off-peak hours in residential grids.
-\item Studied the complexity of the RL-DSM environment and improved the learning curve of the agent.
+\vspace{-2ex}
+\sectionline
 
-\item Presented results at departmental seminars to more than 30 attendees. 
-\end{itemize}
+%-------------------------------------------------------------------------------
 
-\textbf {Ongoing Research works} \hfill Patna, India \\ 
-{\sl Collaboration with my Thesis supervisor {\rm (Dr. Jimson Mathew)}} \hfill Since May 2021 
-\vspace{5pt}
-\begin{itemize}
-\item Dynamic moving object masking for monocular depth estimation with video sequence.
-\item Handle textureless surface in photometric loss
-\item Light-weight monocular depth network
-\end{itemize}
+\section{Research\\Experience}
 
+\begin{project}	
+  \title{Doctoral  Research Experience \hfill  Patna, India} 
+  \supervisor{Supervisor: Dr. Jimson Mathew}
+  \duration{July 2016 -- May 2021}
+  \description{
+  	- Developed expertise in \textbf{camera models}. \\
+  	- Developed expertise in self-supervised \textbf{depth estimation} from a single camera.\\
+  	- Introduced direct depth estimation with a \textbf{distorted} camera lens.\\
+  	- Studied the impact of \textbf{self-attention} in depth estimation network. \\
+  	- Developed expertise in \textbf{adversarial samples} and their effect on deep neural networks.\\
+  	- Studied the \textbf{vulnerabilities} of monocular depth estimators against Adversarial attacks.\\
+  	- Introduced an intelligent agent for \textbf{shifting load} from no-peak to off-peak hours in residential grids.\\
+  	- Studied the complexity of the RL-DSM environment and improved the learning curve of the agent.\\
+  	- Presented results at departmental seminars to more than 30 attendees. \\
+  } 
+\end{project}
+\begin{project}
+  \title{Ongoing Research works \hfill  Patna, India}
+  \supervisor{Collaboration with my Thesis supervisor (Dr. Jimson Mathew)}
+  \duration{Since May 2021}
+  \description{
+  	- \textbf{Dynamic moving object} masking for monocular depth estimation with video sequence.\\
+  	- Handle \textbf{textureless} surface in photometric loss.\\
+  	- \textbf{Light-weight} monocular depth network.\\
+  }
+\end{project}
+\begin{project}
+	\title{Experience in Research Guidance \hfill  Patna, India}
+	\supervisor{Indian Institute of Technology Patna}
+	\duration{Since July 2017}
+	\description{
+		\cusemph{Mentored Junior Research Fellows}\\
+		- Fisheye cameras are commonly used in applications like autonomous driving and surveillance to provide a large field of view. We developed per-pixel dense distance estimation on fisheye cameras for automotive scenes. \\
+		- Deep learning-based load prediction model on time series data. These models will be used for applications like Demand Side Management in Smart Grid.\\
+		- Designed algorithm to adapt classification task on unlabelled data with fewer know labelled data. \\
+		
+		\cusemph{Mentored M.Tech. students in Computer Science Department}\\
+		- Designed a system that distinguishes familiar/unfamiliar images from EEG (Electroencephalogram) captured using an eight electrode helmet. Extended future to deception detection using deep learning.\\
+		- We designed a fast multi-object hybrid tracking system using particle filter and neural network.\\
+		- We designed a light-weight deep learning-based facial recognition system.\\
+	}
+\end{project}
+\begin{project}
+  \title{}
+  \supervisor{}
+  \duration{}
+  \description{			
+	\cusemph{Mentored B.Tech. students in Computer Science Department}\\
+		- An advanced reinforcement learning-based system for load shifting in a residential grid.\\
+		- We developed a reinforcement learning-based system for load shifting in a residential grid. \\
+		- We developed deep learning-based light-weight object detection for embedded systems.\\
+		- We have developed a system that estimates depth from a single uncalibrated camera.\\
+  }
+\end{project}
+\begin{project}
+  \title{Master's Project Research Experience \hfill  Kerala, India}
+  \supervisor{Supervisor: Dr. Binu VP}
+  \duration{May 2015--May 2016}
+  \description{
+	- Investigated super-resolution with Convolutional Neural Networks.\\
+	- Super-resolution in gray scale and color.\\
+	- Presented the final report to five member evaluation committee.\\
+  }
+\end{project}
+\vspace{-2ex}
+\sectionline
+%-------------------------------------------------------------------------------
 
-\textbf {Experience in Research Guidance} \hfill Patna, India \\ 
-{\sl Indian Institute of Technology Patna} \hfill Since July 2017
+\section{Teaching\\Experience}
 
-Mentored Junior Research Fellows in the group.
-\begin{itemize}
-\item Fisheye cameras are commonly used in applications like autonomous driving and surveillance to provide a large field of view ($>180^{\circ}$). We developed per-pixel dense distance estimation on fisheye cameras for automotive scenes. 
-\item Deep learning-based load prediction model on time series data. These models will be used for applications like Demand Side Management in Smart Grid.
-\item Designed algorithm to adapt classification task on unlabelled data with fewer know labelled data. 
-\end{itemize}
+\begin{project}	
+	\title{Teaching Assistance \hfill  IIT Patna, India} 
+	\supervisor{}
+	\duration{July 2016--Dec 2020}
+	\description{
+		CS 225 Switching Theory \hfill Jan--May, 2017 \\
+		CS 229 Innovation Laboratory \hfill Jan, 2017 \\
+		CS 421 Computer Peripherals and Interfacing \hfill July--Dec, 2017 \\
+		CS 225 Switching Theory \hfill Jan--May, 2018 \\
+		CS 421 Computer Peripherals and Interfacing \hfill July--Dec, 2018 \\
+		CS 225 Switching Theory \hfill Jan--May, 2019 \\
+		EE 541 High Performance Computing \hfill Jan, 2019 \\
+		CS 421 Computer Peripherals and Interfacing \hfill July--Dec, 2019 \\
+		CS 225 Switching Theory \hfill Jan--May, 2020 \\
+		CS 421 Computer Peripherals and Interfacing \hfill July--Dec, 2020 \\
+		Mid and End-Semester Examination duties \hfill 2016--2020 \\
+	} 
+\end{project}
+\vspace{-2ex}
+\sectionline
+%-------------------------------------------------------------------------------
+%       AWARDS & ACHIEVEMENTS	
+%-------------------------------------------------------------------------------
+\section{Awards \& Achievements}
 
+\vspace{-3.5ex}
+\subsection{Scholarships \& Sponsorship}
+\vspace{-2ex}
 
-Mentored M.Tech. students in Computer Science Department.
-\begin{itemize}
-\item Designed a system that distinguishes familiar/unfamiliar images from EEG (Electroencephalogram) captured using an eight electrode helmet. Extended future to deception detection using deep learning.
-\item We designed a fast multi-object hybrid tracking system using particle filter and neural network.
-\item We designed a light-weight deep learning-based facial recognition system.
-\end{itemize}
+Sponsorship from \cusemph{Scheme for Promotion of Academic and Research Collaboration}, Ministry of Human Resource development, Government of India. Grant \#P582. \timeline{April 2020} 
 
-Mentored B.Tech. students in Computer Science Department. 
-\begin{itemize}
-\item An advanced reinforcement learning-based system for load shifting in a residential grid.
-\item We developed a reinforcement learning-based system for load shifting in a residential grid. 
-\item We developed deep learning-based light-weight object detection for embedded systems.
-\item We have developed a system that estimates depth from a single uncalibrated camera.
-\end{itemize}
+Three year \cusemph{Senior Research Fellowship} (SRF) at IIT Patna, \\
+Ministry of Human Resource Development, Government of India. \timeline{April 2018}
 
-\textbf {Master's Project Research Experience} \hfill  Kerala, India \\ 
-{\sl College of Engineering Karunagappally} \hfill May 2015--May 2016 
-\vspace{5pt}
-\begin{itemize}
-\item Investigated super-resolution with Convolutional Neural Networks.
-\item Super-resolution in gray scale and color.
-\item Presented the final report to five member evaluation committee.
-\end{itemize}
+Two year \cusemph{Junior Research Fellowship} (JRF)  at IIT Patna, \\
+Ministry of Human Resource Development, Government of India. \timeline{July 2016}
 
+Two year \cusemph{Post Graduate Fellowship} at College of Engineering Karunagappally \\
+Institute of Human Resources Development, Government of Kerala. \timeline{July 2014}
 
+\vspace{-3.5ex}
+\subsection{Competitive Awards}
+\vspace{-2ex}
 
-\section{\centerline{TEACHING ASSISTANCE EXPERIENCE}}
+\cusemph{Second Place}, IoT Grand Challenge, Indian Institute of Technology (IIT) Patna. \timeline{2016}
 
-\vspace{5pt}
+\cusemph{Finalist}, Bosch DNA Challenge, Bosch India. \timeline{2017}
 
-\textbf {Indian Institute of Technology Patna} \hfill  Patna, India \\ 
-{\sl Research Fellow} \hfill July 2016--July 2021 
+\cusemph{Top 35}, Patna Ideathon, Government of Bihar. \timeline{2018}
 
-I have performed the following teaching assistance during my Ph.D. program at Indian Institute of Technology Patna.
+\vspace{-3.5ex}
+\subsection{Competitive Examinations}
+\vspace{-2ex}
 
-\vspace{6pt}
-\begin{itemize}\setlength\itemsep{0em}
-	
-\item CS 225 Switching Theory \hfill Jan-May, 2017
-\item CS 229 Innovation Laboratory \hfill Jan, 2017
-\item CS 421 Computer Peripherals and Interfacing \hfill July-Dec, 2017
-\item CS 225 Switching Theory \hfill Jan-May, 2018
-\item CS 421 Computer Peripherals and Interfacing \hfill July-Dec, 2018
-\item CS 225 Switching Theory \hfill Jan-May, 2019
-\item EE 541 High Performance Computing \hfill Jan, 2019
-\item CS 421 Computer Peripherals and Interfacing \hfill July-Dec, 2019
-\item CS 225 Switching Theory \hfill Jan-May, 2020
-\item CS 421 Computer Peripherals and Interfacing \hfill July-Dec, 2020
-\item Mid and End-Semester Examination duties \hfill 2016--2020
+Graduate Aptitude Test in Engineering (\cusemph{GATE}) \timeline{2016} \\ All India Rank: 5493 out of 108495 candidates. 
 
-\end{itemize}
+\vspace{-2ex} \newpage
+\sectionline
 
-\section{\centerline{SKILLS}}
+%-------------------------------------------------------------------------------
+%	ACADEMIC PROJECTS SECTION
+%-------------------------------------------------------------------------------
+\section{Talks}
 
-\vspace{10pt}
+\cusemph{Generative Adversarial Networks and Adversarial Attacks} \timeline{Dec, 2020} \\
+sponsored by All India Council for Technical Education, Government of India. 
+
+\textbf{Adversarial Machine Learning}  \timeline{Dec, 2019} \\
+sponsored by APJ Abdul Kalam Technological University, Government of Kerala.
+
+\cusemph{Machine Learning makes Smart Grids smarter} \timeline{Sept, 2019} \\
+sponsored by Scheme for Promotion of Academic and Research Collaboration (SPARC), Ministry of Human Resource development, Government of India. 
+
+\cusemph{Generative Adversarial Networks} \timeline{July, 2019} \\ 
+sponsored by Third phase of Technical Education Quality Improvement Programme, Government of India and IEEE.
+
+\cusemph{Generative Adversarial Networks and Adversarial examples} \timeline{July, 2019} \\
+sponsored by Third phase of Technical Education Quality Improvement Programme, Government of India. 
+
+\cusemph{Introduction to Convolutional Neural Networks} \timeline{Dec, 2018} \\
+sponsored by Third phase of Technical Education Quality Improvement Programme, Government of India.
+
+\vspace{-2ex}
+\sectionline
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	COURSE PROJECTS SECTION
+%-------------------------------------------------------------------------------
+\section{Professional \\Activities}
+
+\cusemph{Subreviewer} of IEEE ICSCC. \timeline{2017}\\
+\cusemph{Subreviewer} of IEEE International Symposium on Electronic System Design. \timeline{2018}\\
+\cusemph{Reviewer} of IET Computer Vision. \timeline{2019}\\
+\cusemph{Reviewer} of IEEE International Conference on Data Science and Engineering. \timeline{2019}\\
+\cusemph{IEEE Student Member}, IEEE Membership Number: 96850267. \timeline{Since 2019}\\
+
+\vspace{-2ex}
+\sectionline
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{Skills}
+
 \begin{table}[ht]
 	\begin{tabular}{ll}
-		\textbf{Coding} & Python, C++, Java, ASP.NET, C\# .NET. \\
-		\textbf{Teaching} & Conducted B.Tech and M.Tech classes at IIT Patna \\
-		\textbf{ML Packages} & Pytorch, TensorFlow, Keras \\
+		\cusemph{Coding} & Python, C++, Java, ASP.NET, C\# .NET \\
+		\cusemph{Teaching} & Conducted B.Tech and M.Tech classes at IIT Patna \\
+		\cusemph{ML Packages} & Pytorch, TensorFlow, Keras \\
 	\end{tabular}
 \end{table}
 
-\section{\centerline{PUBLICATIONS}}
+\vspace{-2ex}
+\sectionline
+%-------------------------------------------------------------------------------
 
-\vspace{0.3in}
+%-------------------------------------------------------------------------------
+%	Interests
+%-------------------------------------------------------------------------------
+\section{References}
 
-\centerline{\textbf{Journal Articles}}
-
-\vspace{0.2in}
-
-\begin{itemize}
-\setlength\itemsep{5pt}
-
-\item \textbf{Mathew, A.} and Mathew J., Monocular depth estimation with SPN loss, \textit{Elsevier Image and Vision Computing}, (2020).
-
-\item \textbf{Mathew, A.}, Roy, A.,  and Mathew, J., Intelligent Residential Energy Management System Using Deep Reinforcement Learning, \textit{IEEE Systems Journal}, (2020).
-
-\item \textbf{Mathew, A.}, Jolly, MJ., and Mathew, J., Improved Residential Energy Management System Using Priority Double Deep Q-learning, \textit{Elsevier Sustainable Cities and Society}, (2021).
-
-\item \textbf{Mathew, A.}, and Mathew, J., MDDNet: Learn Depth and Ego-motion from Videos with Camera Distortion, \textit{Elsevier Computer Vision and Image Understanding}, (2020). \textit{(Under-revision)}
-
-\item \textbf{Mathew, A.}, Patra, A., and Mathew, J., Monocular Depth Estimators: Vulnerabilities and Attacks, \textit{IEEE Intelligent Systems}, (2020). \textit{(Under-review)}
-
-\item \textbf{Mathew, A.}, and Mathew, J., Monocular Depth Estimation with Unknown Camera, \textit{Elsevier Image and Vision Computing}, (2021). \textit{(Under-review)}
-
-\item \textbf{Mathew, A.}, and Mathew, J., Efficient Demand Response in Residential Grid using Q-learning, \textit{IEEE Systems Journal}, (2021). \textit{(Under-review)}
-
-\item \textbf{Mathew, A.}, Gopugari, B., and Mathew, J., Monocular Depth Estimation with Stereo Assistance Depth Consistency, \textit{IEEE Intelligent Systems}, (2021). \textit{(Under-review)}
-
-\end{itemize}
-
-\vspace{0.3in}
-
-\centerline{\textbf{Conference Proceedings}}
-
-\vspace{0.2in}
-
-\begin{itemize}
-	\setlength\itemsep{5pt}
-	
-	\item \textbf{Mathew, A.}, Patra, AP., and Mathew, J., Self-Attention Dense Depth Estimation Network for Unrectified Video Sequences, \textit{IEEE International Conference on Image Processing}, (2020).
-			
-	\item Sanodiya RK, \textbf{Mathew, A.}, Mathew, J., and Khushi, M., Statistical and Geometrical Alignment using Metric Learning in Domain Adaptation, \textit{IEEE International Joint Conference on Neural Networks}, (2020).
-	
-	\item Srivastava, H., \textbf{Mathew, A.}, and Mathew, J., A Novel Frame Similarity Based Pedestrian Counting Approach in Surveillance Videos, \textit{IEEE India Council International Conference}, (2018).
-	
-	\item \textbf{Mathew, A.}, Mathew, J., Govind, M., and Mooppan, A., An Improved Transfer learning Approach for Intrusion Detection, \textit{International Conference on Advances in Computing  Communication}, (2017).
-	
-\end{itemize}
-
-\section{\centerline{PATENT}}
-
-\vspace{0.3in}
-
-\begin{itemize}
-	\setlength\itemsep{5pt}
-	
-	\item Easa Z., Gupta D., Mathew J., and \textbf{Mathew A.}, Automated two wheeler parking system by detecting the location of the vehicle using sensor under the platform Appl.no. 201731036379. (Indian Patent Pending) \hfill 2017
-	
-\end{itemize}
-
-\section{\centerline{TALKS}}
-
-\vspace{0.3in}
-
-\begin{itemize}
-	\setlength\itemsep{5pt}
-	
-	\item \textbf{Generative Adversarial Networks and Adversarial Attacks} sponsored by All India Council for Technical Education (AICTE), Government of India. \hfill Dec, 2020
-	
-	\item \textbf{Adversarial Machine Learning} sponsored by APJ Abdul Kalam Technological \\ University, Government of Kerala. \hfill Dec, 2019
-	
-	\item \textbf{Machine Learning makes Smart Grids smarter} sponsored by Scheme for Promotion of Academic and Research Collaboration (SPARC), Ministry of Human Resource development, Government of India. \hfill Sept, 2019
-	
-	\item \textbf{Generative Adversarial Networks} sponsored by Third phase of Technical Education Quality Improvement Programme, Government of India and Institute of Electrical and Electronics Engineers. \hfill July, 2019
-	
-	\item \textbf{Generative Adversarial Networks and Adversarial examples} sponsored by Third phase of Technical Education Quality Improvement Programme (TEQIP-III), Government of India. \hfill July, 2019
-	
-	\item \textbf{Introduction to Convolutional Neural Networks} sponsored by Third phase of Technical Education Quality Improvement Programme (TEQIP-III), Government of India. \hfill Dec, 2018
-	
-\end{itemize}
-
-\section{\centerline{PROFESSIONAL ACTIVITIES}}
-
-\vspace{0.3in}
-
-\begin{itemize}
-	\setlength\itemsep{5pt}
-	
-	\item \textbf{Subreviewer} of IEEE International Conference on Smart Computingand Communications (ICSCC). \hfill 2017
-	
-	\item \textbf{Subreviewer} of IEEE International Symposium on Electronic System Design. \hfill 2018
-	
-	\item \textbf{Reviewer} of IET Computer Vision. \hfill 2019
-	
-	\item \textbf{Reviewer} of IEEE International Conference on Data Science and Engineering. \hfill 2019
-	
-\end{itemize}
-
-\section{\centerline{OTHER ACTIVITIES}}
-
-\vspace{0.3in}
-
-\begin{itemize}
-	\setlength\itemsep{5pt}
-	
-	\item \textbf{Technical committee} of Research Scholars’ Day, Indian Institute of Technology (IIT) Patna \hfill 2017-2019
-
-\end{itemize}
-
-\section{\centerline{REFERENCE}} 
-
-\vspace{0.2in}
- 
-\begin{itemize}
-
-\item \textbf {Dr. Jimson Mathew}\\ Head, Associate Professor\\ Department of Computer Science and Engineering, \\ Indian Institute of Technology Patna \\ Bihar, India\\
+\textbf {Dr. Jimson Mathew}\\ Head, Associate Professor\\ Department of Computer Science and Engineering, \\ Indian Institute of Technology Patna \\ Bihar, India\\
 Email: jimson@iitp.ac.in \\
 Phone: +91-612-3028347 \\
 Mobile: +91-91109-56262
 
-\item \textbf {Dr. Samrat Mondal}\\ Assistant Professor\\ Department of Computer Science and Engineering, \\ Indian Institute of Technology Patna \\ Bihar, India\\
+\textbf {Dr. Samrat Mondal}\\ Assistant Professor\\ Department of Computer Science and Engineering, \\ Indian Institute of Technology Patna \\ Bihar, India\\
 Email: samrat@iitp.ac.in \\
 Phone: +91-612-3028163 \\
 Mobile: +91-82925-83635
 
 \vspace{6pt}
-\item \textbf {Dr. Binu VP}\\ Associate Professor\\ Department of Computer Science and Engineering \\ College of Engineering Karunagappally \\ Kerala, India \\
+\textbf {Dr. Binu VP}\\ Associate Professor\\ Department of Computer Science and Engineering \\ College of Engineering Karunagappally \\ Kerala, India \\
 Email: binuvp@gmail.com \\
 Mobile: +91-98473-90760
 
-\end{itemize}
-
-
-\end{resume} 
+%-------------------------------------------------------------------------------
+\end{resume}
 \end{document}

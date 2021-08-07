@@ -1,6 +1,7 @@
 % RESUME DOCUMENT STYLE -- Released 23 Nov 1989
 %    for LaTeX version 2.09
 % Copyright (C) 1988,1989 by Michael DeCorte
+% Modified by Alwyn Mathew
 
 \typeout{Document Style `res' <26 Sep 89>.}
 
@@ -498,6 +499,13 @@
 	\textcolor{lightestgray}{\hspace*{0pt}\rule{\textwidth}{2.5pt}}
 }
 
+\def\halfsectionline{
+%	\vspace{-3mm}
+	%\textcolor{lightestgray}{\hspace*{-\hoffset}\rule{\resumewidth}{2.5pt}}
+	\textcolor{white}{\hspace*{-\hoffset}\rule{\sectionwidth}{0pt}}
+	\textcolor{lightestgray}{\hspace*{0pt}\rule{\textwidth}{1pt}}
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % create a multiline box.
 
@@ -706,6 +714,20 @@
 	\vspace{1ex}\\
 	\small\@descriptionbox{\projdesc}
 	\vspace{2ex}\\
+}
+
+\newenvironment{subproject}{
+	\renewcommand{\title}[1]{\def\projtitle{##1}}
+	\renewcommand{\supervisor}[1]{\def\projsupervisor{##1}}
+	\renewcommand{\duration}[1]{\def\projduration{##1}}
+	\renewcommand{\description}[1]{\def\projdesc{##1}}
+}{
+	\cusemph{\projtitle}\\
+	\textcolor{darkgray}{\textit{\projsupervisor}} 
+	\hfill\textcolor{darkgray}{\textit{\projduration}}
+	\vspace{1ex}\\
+	\small\@descriptionbox{\projdesc}
+	\hspace{5mm}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.5.29)  9 AUG 2021 12:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.5.29)  10 AUG 2021 20:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -358,51 +358,51 @@ Missing character: There is no ™ in font cmsl10!
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 185.
+(Font)              <9> on input line 187.
 
-Overfull \hbox (4.36807pt too wide) in paragraph at lines 185--249
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 187--251
 []  [][]
  []
 
 
-Overfull \hbox (4.36807pt too wide) in paragraph at lines 185--249
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 187--251
 []  [][]
  []
 
 
-Overfull \hbox (4.36807pt too wide) in paragraph at lines 185--249
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 187--251
 []  [][]
  []
 
 
-Overfull \hbox (4.36807pt too wide) in paragraph at lines 185--249
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 187--251
 []  [][]
  []
 
 
-Overfull \hbox (4.36807pt too wide) in paragraph at lines 185--249
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 187--251
 []  [][]
  []
 
 
-Overfull \hbox (4.36807pt too wide) in paragraph at lines 185--249
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 187--251
 []  [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--249
+Underfull \hbox (badness 10000) in paragraph at lines 187--251
 
  []
 
 [2
 
 ]
-Overfull \hbox (4.36807pt too wide) in paragraph at lines 273--274
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 275--276
 []  [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
@@ -410,21 +410,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 346--351
+Underfull \hbox (badness 10000) in paragraph at lines 348--355
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 362.
+(Font)              <7> on input line 366.
 [4
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 406.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 410.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 406.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 406.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 406.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 406.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 410.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 410.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 410.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 410.
  ) 
 Here is how much of TeX's memory you used:
  6577 strings out of 492982
@@ -444,7 +444,7 @@ type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti10.pfb>
-Output written on CV_alwyn.pdf (5 pages, 173246 bytes).
+Output written on CV_alwyn.pdf (5 pages, 172395 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream

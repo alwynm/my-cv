@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2021.5.29)  11 AUG 2021 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.5.29)  30 SEP 2021 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -40,12 +40,13 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -149,10 +150,9 @@ Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -221,32 +221,17 @@ LaTeX Info: Redefining \pageref on input line 6443.
 \c@Item=\count104
 \c@Hfootnote=\count105
 )
-Package hyperref Info: Driver (autodetected): hxetex.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2018/02/06 v6.86b Hyperref driver for XeTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box31
-\c@Hy@AnnotLevel=\count106
-\HyField@AnnotCount=\count107
-\Fld@listcount=\count108
-\c@bookmark@seq@number=\count109
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count106
+\c@bookmark@seq@number=\count107
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
-(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
-(rerunfilecheck)             and the loading of the package is aborted.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
 )
 \Hy@SectionHShift=\skip51
 )
@@ -254,9 +239,9 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count110
-\Gm@cntv=\count111
-\c@Gm@tempcnt=\count112
+\Gm@cnth=\count108
+\Gm@cntv=\count109
+\c@Gm@tempcnt=\count110
 \Gm@bindingoffset=\dimen125
 \Gm@wd@mp=\dimen126
 \Gm@odd@mp=\dimen127
@@ -276,37 +261,44 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count111
+\scratchdimen=\dimen133
+\scratchbox=\box31
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen134
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks25
+)
 \AtBeginShipoutBox=\box32
 Package hyperref Info: Link coloring ON on input line 67.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count113
+\c@section@level=\count117
 )
 LaTeX Info: Redefining \ref on input line 67.
 LaTeX Info: Redefining \pageref on input line 67.
 LaTeX Info: Redefining \nameref on input line 67.
 
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -328,7 +320,7 @@ Package hyperref Warning: Rerun to get /PageLabels entry.
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=98.26122pt
+* \hoffset=98.25676pt
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
@@ -349,48 +341,51 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 85.
 
-Overfull \hbox (1.52261pt too wide) in paragraph at lines 85--86
+Overfull \hbox (1.52928pt too wide) in paragraph at lines 85--86
 [][]| [][] []| [][]
  []
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-
-)
+Missing character: There is no â in font cmsl10!
+Missing character: There is no € in font cmsl10!
+Missing character: There is no ™ in font cmsl10!
+Missing character: There is no â in font cmsl10!
+Missing character: There is no € in font cmsl10!
+Missing character: There is no ™ in font cmsl10!
 [1
 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 187.
 
-Overfull \hbox (4.36052pt too wide) in paragraph at lines 187--251
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 187--251
 []  [][]
  []
 
 
-Overfull \hbox (4.36052pt too wide) in paragraph at lines 187--251
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 187--251
 []  [][]
  []
 
 
-Overfull \hbox (4.36052pt too wide) in paragraph at lines 187--251
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 187--251
 []  [][]
  []
 
 
-Overfull \hbox (4.36052pt too wide) in paragraph at lines 187--251
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 187--251
 []  [][]
  []
 
 
-Overfull \hbox (4.36052pt too wide) in paragraph at lines 187--251
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 187--251
 []  [][]
  []
 
 
-Overfull \hbox (4.36052pt too wide) in paragraph at lines 187--251
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 187--251
 []  [][]
  []
 
@@ -402,7 +397,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--251
 [2
 
 ]
-Overfull \hbox (4.36052pt too wide) in paragraph at lines 275--276
+Overfull \hbox (4.36807pt too wide) in paragraph at lines 275--276
 []  [][]
  []
 
@@ -427,17 +422,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 410.
  [5]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 410.
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 410.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 410.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 410.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 410.
  ) 
 Here is how much of TeX's memory you used:
- 9684 strings out of 493007
- 134980 string characters out of 6136719
- 231019 words of memory out of 5000000
- 13617 multiletter control sequences out of 15000+600000
- 6839 words of font info for 37 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 31i,13n,45p,247b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 6577 strings out of 492982
+ 94732 string characters out of 6134896
+ 198334 words of memory out of 5000000
+ 10114 multiletter control sequences out of 15000+600000
+ 9503 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 31i,13n,37p,247b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb>
+Output written on CV_alwyn.pdf (5 pages, 171808 bytes).
+PDF statistics:
+ 87 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on CV_alwyn.pdf (5 pages).

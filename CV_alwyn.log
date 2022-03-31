@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.5.29)  7 MAR 2022 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.5.29)  31 MAR 2022 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,22 +409,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--289
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 361--368
+Underfull \hbox (badness 10000) in paragraph at lines 362--370
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 379.
+(Font)              <7> on input line 381.
 [4
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 425.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 427.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 425.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 425.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 425.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 425.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 427.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 427.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 427.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 427.
  ) 
 Here is how much of TeX's memory you used:
  6584 strings out of 492982
@@ -443,7 +443,7 @@ dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsl9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb>
-Output written on CV_alwyn.pdf (5 pages, 165500 bytes).
+Output written on CV_alwyn.pdf (5 pages, 165791 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
